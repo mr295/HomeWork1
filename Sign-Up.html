@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Welcome</title>
+        <title>Login Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/Home.css">
+        <link rel="stylesheet" href="css/Sign-Up.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,13 +20,31 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-		
-		<h1 class="top-header"> Welcome,</h1>
-		<h3 class="sub-header"> Login to your account or sign up to create one.</h3>
-        <a href="file:///C:/Users/Mehul/Desktop/HomeWork1/Login.html"><div class="loginbutton">Login</div></a>
-		<a href="file:///C:/Users/Mehul/Desktop/HomeWork1/Sign-Up.html"><div class="signupbutton"> Sign Up </div></a>
-				
-
+		<div class="container">
+			<form>
+				<div class="form-input">
+					<input type="text" name="username"
+					placeholder="Enter Username">
+				</div>
+				<div class="form-input">
+					<input type="email" name="email"
+					placeholder="Enter Email">
+				</div>
+				<div class="form-input">
+					<input type="password" name="password"
+					placeholder="Enter Password">
+				</div>
+				<div class="form-input">
+					<input type="password" name="password"
+					placeholder="Confirm Password">
+				</div>
+				<input class="btn-login" type="submit" name="sub"
+				value="SIGN-UP">				
+			</form>			
+		</div>
+		<div class="account">
+			Creat Account
+		</div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
